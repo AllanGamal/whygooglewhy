@@ -1,52 +1,1016 @@
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css" type="text/css" />
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&display=swap" rel="stylesheet"
-        type="text/css" />
+<head lang="en">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="resources/css/main.css" type="text/css" />
+  <link rel="stylesheet" href="resources/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="resources/css/questions.css" type="text/css" />
+  <link rel="stylesheet" href="resources/css/question.css" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&display=swap" rel="stylesheet"
+    type="text/css" />
 
-    <title>Why google?</title>
+  <title>Why google?</title>
 </head>
 
 <body>
-    <header class="header">
-        <div class="header__sticky-header">
-            <div class="header__content">
-                <div class="header__logo"><img src="resources/images/why-logo.png" alt=""></div>
-                <nav id="main">
-                    <ul class="header__main-nav">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="#tables">Questions</a></li>
-                        <li><a href="#random">Random</a></li>
-                    </ul>
 
-                </nav>
 
-                <form action="#" class="search">
-                    <input type="text" class="search__input" placeholder="Search">
-                    <button class="search__button">
-                        <svg class="search__button--icon">
-                            <use xlink:href="/resources/images/icons/sprite.svg#icon-magnifying-glass"></use>
-                        </svg>
-                    </button>
+  <header class="header">
+    <div class="header__sticky-header">
+      <div class="header__content">
+        <div class="header__logo"><img src="resources/images/why-logo.png" alt=""></div>
+        <nav id="main">
+          <ul class="header__main-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#tables">Questions</a></li>
+            <li><a href="#random">Random</a></li>
+          </ul>
 
-                </form>
+        </nav>
 
-            </div>
+        <form action="#" class="search">
+          <input type="text" class="search__input" placeholder="Search">
+          <button class="search__button">
+            <svg class="search__button--icon">
+              <use xlink:href="/resources/images/icons/sprite.svg#icon-magnifying-glass"></use>
+            </svg>
+          </button>
+
+        </form>
+
+      </div>
+
+    </div>
+
+
+
+    <div class="header__hero">
+      <figure class="header__hero--man"><img src="/resources/images/google-man.png" alt=""></figure>
+      <figure class="header__hero--kids"><img src="/resources/images/kids-asking.png" alt=""></figure>
+    </div>
+  </header>
+
+
+
+
+  <section class="intro brown">
+
+    <h2>HÄR JAG BOR JAG</h2>
+    <p>
+      Ever wondered why the sky is blue, or why cats purr? So have I, and millions other people every day!
+      Here you get some quick answers to some of the most searched questions on google, and rank them by search volume.
+      <br>
+      <br>
+      On a important note, we might not have inluded all questions whose answers might be true today but not tomorrow,
+      or
+      different question whose answers might be location dependant. Questions like "how do i do my taxes" does not have
+      a
+      global answer.
+      <br>
+      Nor did we include answers that have illigal encouragement.
+      <br>
+      <br>
+      So scroll down to unlock the knowledge to the questions on everyones mind!
+    </p>
+  </section>
+
+
+  <div class="cards" id="random">
+    <a href="#" class="link">
+      <div class="card">
+        <div class="card__color">
+          <div class="card__color--red">
+
+          </div>
+
+        </div>
+        <div class="card__image">
+          <div class="card__image--placement">
+            <svg class="icon">
+              <use xlink:href="/resources/images/icons/sprite.svg#icon-trophy"></use>
+            </svg>
+            <p class="place">Nr: 57</p>
+          </div>
+          <div class="card__image--question">
+            <p class="question--text">
+              Why is the sky blue?
+            </p>
+          </div>
+          <div class="card__image--searches">
+            <h2 class="number">3.5m</h2>
+            <p class="text">Monthly searches</p>
+          </div>
+        </div>
+        <img class="card__image--img" src="resources/images/cards/blue-clouds-day-fluffy-53594.jpg" alt="Blue sky">
+
+
+
+
+
+
+      </div>
+    </a>
+    <a href="#" class="link">
+      <div class="card">
+        <div class="card__color">
+          <div class="card__color--blue">
+
+          </div>
+
+        </div>
+        <div class="card__image">
+          <div class="card__image--placement">
+            <svg class="icon">
+              <use xlink:href="/resources/images/icons/sprite.svg#icon-trophy"></use>
+            </svg>
+            <p class="place">Nr: 34</p>
+          </div>
+          <div class="card__image--question">
+            <p class="question--text">
+              Why are plants green?
+            </p>
+          </div>
+          <div class="card__image--searches">
+            <h2 class="number">990k</h2>
+            <p class="text">Monthly searches</p>
+          </div>
+        </div>
+        <img class="card__image--img" src="resources/images/cards/pexels-photo-1407305.jpg" alt="Blue sky">
+
+
+
+
+      </div>
+    </a>
+    <a href="#" class="link">
+      <div class="card">
+        <div class="card__color">
+          <div class="card__color--yellow">
+
+          </div>
+
+        </div>
+        <div class="card__image">
+          <div class="card__image--placement">
+            <svg class="icon">
+              <use xlink:href="/resources/images/icons/sprite.svg#icon-trophy"></use>
+            </svg>
+            <p class="place">Nr: 12</p>
+          </div>
+          <div class="card__image--question">
+            <p class="question--text">
+              How do I grow a beard?
+            </p>
+          </div>
+          <div class="card__image--searches">
+            <h2 class="number">1.5m</h2>
+            <p class="text">Monthly searches</p>
+          </div>
+        </div>
+        <img class="card__image--img" src="resources/images/cards/pexels-photo-2269872.jpg" alt="Blue sky">
+
+
+
+
+      </div>
+    </a>
+    <a href="#" class="link">
+      <div class="card">
+
+        <div class="card__color">
+          <div class="card__color--green">
+
+          </div>
 
         </div>
 
+        <div class="card__image">
 
+          <div class="card__image--placement">
+            <svg class="icon">
+              <use xlink:href="/resources/images/icons/sprite.svg#icon-trophy"></use>
+            </svg>
+            <p class="place">Nr: 80</p>
+          </div>
 
-        <div class="header__hero">
-            <figure class="header__hero--man"><img src="/resources/images/google-man.png" alt=""></figure>
-            <figure class="header__hero--kids"><img src="/resources/images/kids-asking.png" alt=""></figure>
+          <div class="card__image--question">
+
+            <p class="question--text">
+
+              Why is the earth round?
+
+            </p>
+
+          </div>
+
+          <div class="card__image--searches">
+            <h2 class="number">200k</h2>
+            <p class="text">Monthly searches</p>
+          </div>
         </div>
-    </header>
+
+
+        <img class="card__image--img" src="resources/images/cards/sky-earth-galaxy-universe.jpg" alt="Blue sky">
+
+
+
+
+
+      </div>
+    </a>
+
+
+
+  </div>
+
+
+
+
+
+
+  <section class="tables" id="tables">
+
+    <div class="tables__container tables__green">
+      <table class="table ">
+
+        <tr class="table__head">
+          <th class="table__head--question">Question</th>
+          <th class="table__head--searches">Monthly searches</th>
+          <th class="table__head--number">Nr:</th>
+        </tr>
+
+        <!--1-->
+        <tr class="table__data">
+          <td class="table__data--question">
+            <a href="#ip" class="link">
+              <p class="link--text">What is my ip?</p>
+            </a>
+            <img class="img" src="/resources/images/cards/ip.jpg" alt="">
+          </td>
+          <td class="table__data--searches">4.55m</td>
+          <td class="table__data--number">1</td>
+        </tr>
+
+        <!--2-->
+        <tr class="table__data">
+          <td class="table__data--question">
+            <a href="#time" class="link">
+              <p class="link--text">What time is it?</p>
+            </a>
+            <img class="img" src="/resources/images/cards/time.jpg" alt="">
+          </td>
+          <td class="table__data--searches">878k</td>
+          <td class="table__data--number">2</td>
+        </tr>
+
+        <!--3-->
+        <tr class="table__data">
+          <td class="table__data--question">
+            <a href="#vpn" class="link">
+              <p class="link--text">What is VPN?</p>
+            </a>
+            <img class="img" src="/resources/images/cards/vpn.jpg" alt="">
+          </td>
+          <td class="table__data--searches">164k</td>
+          <td class="table__data--number">3</td>
+        </tr>
+
+        <!--4-->
+        <tr class="table__data">
+          <td class="table__data--question">
+            <a href="#day" class="link">
+              <p class="link--text">What day is it today?</p>
+            </a>
+            <img class="img" src="/resources/images/cards/day.jpg" alt="">
+          </td>
+          <td class="table__data--searches">161k</td>
+          <td class="table__data--number">4</td>
+        </tr>
+
+
+
+
+      </table>
+    </div>
+
+    <div class="tables__container tables__blue">
+      <table class="table ">
+
+        <tr class="table__head">
+          <th class="table__head--question">Question</th>
+          <th class="table__head--searches">Monthly searches</th>
+          <th class="table__head--number">Nr:</th>
+        </tr>
+
+        <!--1-->
+        <tr class="table__data">
+          <td class="table__data--question">
+            <a href="#days" class="link">
+              <p class="link--text">How many days in a year?</p>
+            </a>
+            <img class="img" src="/resources/images/cards/days.jpg" alt="">
+          </td>
+          <td class="table__data--searches">694k</td>
+          <td class="table__data--number">1</td>
+        </tr>
+
+        <!--2-->
+        <tr class="table__data">
+          <td class="table__data--question">
+            <a href="#tie" class="link">
+              <p class="link--text">How to tie a tie?</p>
+            </a>
+            <img class="img" src="/resources/images/cards/tie.jpg" alt="">
+          </td>
+          <td class="table__data--searches">526k</td>
+          <td class="table__data--number">2</td>
+        </tr>
+
+        <!--3-->
+        <tr class="table__data">
+          <td class="table__data--question">
+            <a href="#pound" class="link">
+              <p class="link--text">How many ounces in a pound?</p>
+            </a>
+            <img class="img" src="/resources/images/cards/ounces.jpg" alt="">
+          </td>
+          <td class="table__data--searches">358k</td>
+          <td class="table__data--number">3</td>
+        </tr>
+
+        <!--4-->
+        <tr class="table__data">
+          <td class="table__data--question">
+            <a href="#screenshot" class="link">
+              <p class="link--text">How to screenshot on mac?</p>
+            </a>
+            <img class="img" src="/resources/images/cards/screenshot.jpg" alt="">
+          </td>
+          <td class="table__data--searches">348k</td>
+          <td class="table__data--number">4</td>
+        </tr>
+
+        <!--5-->
+        <tr class="table__data">
+          <td class="table__data--question">
+            <a href="#cup" class="link">
+              <p class="link--text">How many ounces in a cup?</p>
+            </a>
+            <img class="img" src="/resources/images/cards/ounces.jpg" alt="">
+          </td>
+          <td class="table__data--searches">347k</td>
+          <td class="table__data--number">5</td>
+        </tr>
+
+        <!--6-->
+        <tr class="table__data">
+          <td class="table__data--question">
+            <a href="#gallon" class="link">
+              <p class="link--text">How many ounces in a gallon?</p>
+            </a>
+            <img class="img" src="/resources/images/cards/ounces.jpg" alt="">
+          </td>
+          <td class="table__data--searches">314k</td>
+          <td class="table__data--number">6</td>
+        </tr>
+
+
+      </table>
+    </div>
+
+    <div class="tables__container tables__red">
+      <table class="table">
+
+        <tr class="table__head">
+          <th class="table__head--question">Question</th>
+          <th class="table__head--searches">Monthly searches</th>
+          <th class="table__head--number">Nr:</th>
+        </tr>
+
+        <!--1-->
+        <tr class="table__data">
+          <td class="table__data--question">
+            <a href="#sky" class="link">
+              <p class="link--text">Why is the sky blue?</p>
+            </a>
+            <img class="img" src="/resources/images/cards/sky.jpg" alt="">
+          </td>
+          <td class="table__data--searches">113k</td>
+          <td class="table__data--number">1</td>
+        </tr>
+
+        <!--2-->
+        <tr class="table__data">
+          <td class="table__data--question">
+            <a href="#cat" class="link">
+              <p class="link--text">Why do cats purr?</p>
+            </a>
+            <img class="img" src="/resources/images/cards/cat.jpg" alt="">
+          </td>
+          <td class="table__data--searches">67k</td>
+          <td class="table__data--number">2</td>
+        </tr>
+
+        <!--3-->
+        <tr class="table__data">
+          <td class="table__data--question">
+            <a href="#sleep" class="link">
+              <p class="link--text">Why we sleep?</p>
+            </a>
+            <img class="img" src="/resources/images/cards/sleep.jpg" alt="">
+          </td>
+          <td class="table__data--searches">63k</td>
+          <td class="table__data--number">3</td>
+        </tr>
+
+        <!--4-->
+        <tr class="table__data">
+          <td class="table__data--question">
+            <a href="#dog" class="link">
+              <p class="link--text">Why do dogs eat grass</p>
+            </a>
+            <img class="img" src="/resources/images/cards/dog.jpg" alt="">
+          </td>
+          <td class="table__data--searches">57k</td>
+          <td class="table__data--number">4</td>
+        </tr>
+
+        <!--5-->
+        <tr class="table__data">
+          <td class="table__data--question">
+            <a href="#poop" class="link">
+              <p class="link--text">Why is my poop green?</p>
+            </a>
+            <img class="img" src="/resources/images/cards/poop.jpg" alt="">
+          </td>
+          <td class="table__data--searches">55k</td>
+          <td class="table__data--number">5</td>
+        </tr>
+
+        <!--6-->
+        <tr class="table__data">
+          <td class="table__data--question">
+            <a href="#tired" class="link">
+              <p class="link--text">Why am I so tired?</p>
+            </a>
+            <img class="img" src="/resources/images/cards/tired.jpg" alt="">
+          </td>
+          <td class="table__data--searches">51k</td>
+          <td class="table__data--number">6</td>
+        </tr>
+
+
+
+      </table>
+    </div>
+
+    <div class="tables__container tables__yellow">
+      <table class="table ">
+
+        <tr class="table__head">
+          <th class="table__head--question">Question</th>
+          <th class="table__head--searches">Monthly searches</th>
+          <th class="table__head--number">Nr:</th>
+        </tr>
+
+        <!--1-->
+        <tr class="table__data">
+          <td class="table__data--question">
+            <a href="#blackfriday" class="link">
+              <p class="link--text">When is black friday?</p>
+            </a>
+            <img class="img" src="/resources/images/cards/blackfriday.jpg" alt="">
+          </td>
+          <td class="table__data--searches">749k</td>
+          <td class="table__data--number">1</td>
+        </tr>
+
+        <!--2-->
+        <tr class="table__data">
+          <td class="table__data--question">
+            <a href="#thanksgiving" class="link">
+              <p class="link--text">When is thanksgiving?</p>
+            </a>
+            <img class="img" src="/resources/images/cards/thanksgiving.jpg" alt="">
+          </td>
+          <td class="table__data--searches">570k</td>
+          <td class="table__data--number">2</td>
+        </tr>
+
+        <!--3-->
+        <tr class="table__data">
+          <td class="table__data--question">
+            <a href="#easter" class="link">
+              <p class="link--text">When is easter?</p>
+            </a>
+            <img class="img" src="/resources/images/cards/easter.jpg" alt="">
+          </td>
+          <td class="table__data--searches">341k</td>
+          <td class="table__data--number">3</td>
+        </tr>
+
+        <!--4-->
+        <tr class="table__data">
+          <td class="table__data--question">
+            <a href="#halloween" class="link">
+              <p class="link--text">When is halloween?</p>
+            </a>
+            <img class="img" src="/resources/images/cards/halloween.jpg" alt="">
+          </td>
+          <td class="table__data--searches">240k</td>
+          <td class="table__data--number">4</td>
+        </tr>
+
+        <!--5-->
+        <tr class="table__data">
+          <td class="table__data--question">
+            <a href="#clock" class="link">
+              <p class="link--text">When do the clocks go back?</p>
+            </a>
+            <img class="img" src="/resources/images/cards/clock.jpg" alt="">
+          </td>
+          <td class="table__data--searches">216k</td>
+          <td class="table__data--number">5</td>
+        </tr>
+
+      </table>
+    </div>
+    <section class="answers">
+      <h1>Most "What" questions asked</h1>
+      <div class="answer" id="ip">
+        <div class="answer__image red">
+          <img src="/resources/images/cards/ip.jpg" alt="" class="answer__img--3">
+        </div>
+        <div class="answer__content">
+          <h2>What is my ip?</h2>
+          <p id="show-ip"></p>
+        </div>
+      </div>
+
+      <div class="answer" id="time">
+
+
+        <div class="answer__content--2">
+          <h2>What time is it?</h2>
+          <p id="show-time"></p>
+        </div>
+
+        <div class="answer__image--2">
+          <img src="/resources/images/cards/time.jpg" alt="" class="answer__img--4">
+        </div>
+
+
+      </div>
+
+      <div class="answer" id="vpn">
+        <div class="answer__image">
+          <img src="/resources/images/cards/vpn.jpg" alt="" class="answer__img--5">
+        </div>
+        <div class="answer__content">
+          <h2>What is VPN?</h2>
+          <p>What is a VPN, and what does it do? VPN is a service that stands for Virtual Private Network. So what is it
+            good for? It’s general purpose is security, to keep your activity online secure and private.
+
+            A VPN connects you to the internet through a encrypted tunnel to protect your data. It hides your IP
+            address, making your data footprint unable to link to your identity to secure your personal information.
+          </p>
+        </div>
+      </div>
+      <div class="answer">
+
+
+        <div class="answer__content--2" id="day">
+          <h2>What day is it today?</h2>
+          <p id="show-day"></p>
+        </div>
+
+        <div class="answer__image--2">
+          <img src="/resources/images/cards/day.jpg" alt="" class="answer__img--4">
+        </div>
+
+
+      </div>
+
+
+    </section>
+
+    <section class="answers">
+      <h1>Most "How" questions asked</h1>
+      <div class="answer" id="days">
+        <div class="answer__image">
+          <img src="/resources/images/cards/days.jpg" alt="" class="answer__img--3">
+        </div>
+        <div class="answer__content">
+          <h2>How many weeks in a year?</h2>
+          <p>There are 52 full weeks in a year.
+            There are 365.24 days in a year, and when divided by 7 days in a weeks you 52.18 weeks in a year, and 52.32
+            weeks in a year counting in a leap day every 4th year.
+          </p>
+        </div>
+      </div>
+
+      <div class="answer" id="tie">
+
+
+        <div class="answer__content--2">
+          <h2>How to tie a tie?</h2>
+          <p>Oriental Knot (simple know), how to tie a tie step-by-step
+            <br>
+            <br>
+            <br>
+          <ol>
+            <li>Place the backside facing away from you, with the longer and wider end on you left. Let the small end
+              rest
+              right above your belly-button.</li>
+            <br>
+            <li>Let the wide end go under the small end to the left.</li>
+            <br>
+            <li>Place the wide end back to the left, over the small end.</li>
+            <br>
+            <li>Bring the wide end up through the neck loop.</li>
+            <br>
+            <li>Pull the wide end back down through the loop you just made.</li>
+            <br>
+            <li>Pull the wide end to tighten, and slide up to adjust.</li>
+          </ol>
+
+          </p>
+        </div>
+
+        <div class="answer__image--2">
+          <img src="/resources/images/cards/tie.jpg" alt="" class="answer__img--4">
+        </div>
+
+
+      </div>
+
+      <div class="answer" id="pound">
+        <div class="answer__image">
+          <img src="/resources/images/cards/ounces.jpg" alt="" class="answer__img--5">
+        </div>
+        <div class="answer__content">
+          <h2>How many ounces in a pound?</h2>
+          <p>How many ounces are there in a pund?
+            <br>
+            For every pound, there is 16 ounces (oz in lb).
+          </p>
+        </div>
+      </div>
+
+      <div class="answer" id="screenshot">
+
+        <div class="answer__content--2">
+          <h2>How to screenshot on mac</h2>
+          <p>How do you take a screenshot on your Mac?
+            <br>
+            To take a screenshot on your mac, press and hold Shift, Command and 3.
+
+            If you want to capture a portion of the screen, press and hold Shift, Command and 4.
+          </p>
+        </div>
+
+        <div class="answer__image--2">
+          <img src="/resources/images/cards/screenshot.jpg" alt="" class="answer__img--4">
+        </div>
+
+
+      </div>
+      <div class="answer" id="cup">
+        <div class="answer__image">
+          <img src="/resources/images/cards/ounces.jpg" alt="" class="answer__img--5">
+        </div>
+        <div class="answer__content">
+          <h2>How many ounces in a cup?</h2>
+          <p>How many ounces are there in a cup?
+            <br>
+            For every cup, there is 8 ounces.
+
+          </p>
+        </div>
+      </div>
+
+      <div class="answer" id="gallon">
+
+        <div class="answer__content--2">
+          <h2>How many ounces in a gallon?</h2>
+          <p>How many ounces are in a gallon?
+            <br>
+            There is 128 ounces in a gallon.
+
+          </p>
+        </div>
+
+        <div class="answer__image--2">
+          <img src="/resources/images/cards/ounces.jpg" alt="" class="answer__img--4">
+        </div>
+
+
+      </div>
+
+
+    </section>
+
+    <section class="answers">
+      <h1>Most "Why" questions asked</h1>
+      <div class="answer" id="sky">
+        <div class="answer__image">
+          <img src="/resources/images/cards/sky.jpg" alt="" class="answer__img--3">
+        </div>
+        <div class="answer__content">
+          <h2>Why is the sky blue?</h2>
+          <p>
+            Why is the sky not yellow or green? Why do we have a blue sky?
+            <br>
+            The white light coming from the sun is made all the colors, as light enter the atmosphere of the earth, a
+            part of the light is shattered by the molecules in the atmosphere into our eyes as what we perceive as blue
+            light.
+            Some of the other light are absorbed by the atmosphere, and the rest of the white light passes right through
+            the atmosphere into our eyes.
+
+          </p>
+        </div>
+      </div>
+
+      <div class="answer" id="cat">
+
+
+        <div class="answer__content--2">
+          <h2>Why do cats purr?</h2>
+          <p>Why do cats purr, and how do they do it?
+            <br>
+            <br>
+            They purr by pulsing their muscles in their larynx and diaphragm,
+            resulting in a vibrating pattern while inhaling and exhaling, and they purr because they are happy, right?
+            Cats do not only purr when they are happy, they also purr when they are in in stress or in pain.
+            Purring could be a way of communicate and express different feelings, but it could also have a purpose of
+            comforting itself.
+            <br>
+            <br>
+            And some studies suggest that the frequency of the purr actually could help rebuild bone
+            density, acting like a natural healing mechanism.
+
+          </p>
+        </div>
+
+        <div class="answer__image--2">
+          <img src="/resources/images/cards/cat.jpg" alt="" class="answer__img--4">
+        </div>
+
+
+      </div>
+
+      <div class="answer" id="sleep">
+        <div class="answer__image">
+          <img src="/resources/images/cards/sleep.jpg" alt="" class="answer__img--5">
+        </div>
+        <div class="answer__content">
+          <h2>Why do we sleep?</h2>
+          <p>Why do we sleep, do we even need sleep, and how much sleep do we need?
+            It is not 100% clear why we sleep, but scientists do have good ideas why.
+            <br>
+            <br>
+            We do know that it is essential to life since long enough sleep deprivation can cause death.
+            While sleeping the body does a lot of cellular repairs, and sleep deprivation seems to be very correlated to
+            cardiovascular stress.
+            A big function of sleep seems to be to rewiring the brain with the new information it process during the
+            day, forming and retaining memories, making the brain better on thinking, being creative and solve problem
+            better.
+
+          </p>
+        </div>
+      </div>
+
+      <div class="answer" id="dog">
+
+        <div class="answer__content--2">
+          <h2>Why do dogs eat grass?</h2>
+          <p>
+            Why does dog eat grass?
+            <br>
+            It may be that the dog feel like its stomach is upset, and like to eat something
+            indigestible, like grass, to push up whatever made their stomach upset.
+            <br>
+            It could actually just be that dogs like the taste of the fresh grass.
+            So is eating grass bad for my dog?
+            No, small quantities does not seem to have any health effect on dogs.
+
+          </p>
+        </div>
+
+        <div class="answer__image--2">
+          <img src="/resources/images/cards/dog.jpg" alt="" class="answer__img--4">
+        </div>
+
+
+      </div>
+      <div class="answer" id="poop">
+        <div class="answer__image">
+          <img src="/resources/images/cards/poop.jpg" alt="" class="answer__img--5">
+        </div>
+        <div class="answer__content">
+          <h2>Why is my poop green?</h2>
+          <p>
+            Why your poop is green could be caused by several different factors, mostly harmful.
+            <br>
+            <br>
+            It could be a result of having a high quantity of leafy and green diet, since the green color comes from the
+            chlorophyll produced from plants.
+            It could also be because of ingest of artificial food coloring, some antibiotics or other medicines and
+            medical procedures.
+
+            But it could actually be a cause from bacterial or other parasitic infections.
+
+          </p>
+        </div>
+      </div>
+
+      <div class="answer" id="tired">
+
+        <div class="answer__content--2">
+          <h2>Why am I so tired?</h2>
+          <p>
+            There are a lot of reasons why you feel so tired, it could be medical reason, like sleep apnea or heart
+            disease. But feeling exhausted could often fixed with a small adjustment to your lifestyle, here is a small
+            list:
+            <br>
+            <br>
+
+          <ul>
+            <li>Hydration</li>
+            Make sure you get enough water every day
+            <br>
+
+            <li>Not enough sleep</li>
+            7-9h pet night
+            <br>
+
+            <li>Stress</li>
+            Avoid stress
+            <br>
+            Try meditation
+            <br>
+
+            <li>Exercise</li>
+            Try working out a couple times a week
+            <br>
+            Avoid sitting still too much
+            <br>
+
+            <li>Alcohol and caffeine</li>
+            Too much or too close to bedtime could get you sleepless or just bad sleep quality
+            <li>
+              Diet
+            </li>
+            Get a more balanced diet, avoid added sugars.
+
+          </ul>
+
+
+
+          </p>
+        </div>
+
+        <div class="answer__image--2">
+          <img src="/resources/images/cards/tired.jpg" alt="" class="answer__img--4">
+        </div>
+
+
+      </div>
+
+
+    </section>
+
+    <section class="answers">
+      <h1>Most "When" questions asked</h1>
+      <div class="answer" id="blackfriday">
+        <div class="answer__image red">
+          <img src="/resources/images/cards/blackfriday.jpg" alt="" class="answer__img--3">
+        </div>
+        <div class="answer__content">
+          <h2>When is black friday?</h2>
+          <p>
+            friday, 27 november 2020
+            <br>
+            friday, 26 november 2021
+            <br>
+            friday, 25 november 2022
+            <br>
+            friday, 24 november 2023
+            <br>
+            friday, 29 november 2024
+
+          </p>
+        </div>
+      </div>
+
+      <div class="answer" id="thanksgiving">
+
+
+        <div class="answer__content--2">
+          <h2>When is thanksgiving?</h2>
+          <p>
+            thursday, 26 november 2020
+            <br>
+            thursday, 25 november 2021
+            <br>
+            thursday, 24 november 2022
+            <br>
+            thursday, 23 november 2023
+            <br>
+            thursday, 28 november 2024
+
+          </p>
+          </p>
+        </div>
+
+        <div class="answer__image--2 blue">
+          <img src="/resources/images/cards/thanksgiving.jpg" alt="" class="answer__img--4">
+        </div>
+
+
+      </div>
+
+      <div class="answer" id="easter">
+        <div class="answer__image yellow">
+          <img src="/resources/images/cards/easter.jpg" alt="" class="answer__img--5">
+        </div>
+        <div class="answer__content">
+          <h2>When is easter?</h2>
+          <p>
+            sunday, 12 april 2020
+            <br>
+            sunday, 4 april 2021
+            <br>
+            sunday, 17 april 2022
+            <br>
+            sunday, 9 april 2023
+            <br>
+            sunday, 31 mars 2024
+          </p>
+        </div>
+      </div>
+
+      <div class="answer" id="halloween">
+
+        <div class="answer__content--2">
+          <h2>When is halloween?</h2>
+          <p>
+          <p>
+            saturday, 31 october 2020
+            <br>
+            sunday, 31 october 2021
+            <br>
+            monday, 31 october 2022
+            <br>
+            tuesday, 31 october 2023
+            <br>
+            thursday, 31 october 2024
+          </p>
+
+          </p>
+        </div>
+
+        <div class="answer__image--2 green">
+          <img src="/resources/images/cards/halloween.jpg" alt="" class="answer__img--4">
+        </div>
+
+
+      </div>
+      <div class="answer" id="clock">
+        <div class="answer__image red">
+          <img src="/resources/images/cards/clock.jpg" alt="" class="answer__img--5">
+        </div>
+        <div class="answer__content">
+          <h2>When do the clocks go back?</h2>
+          <p>
+            sunday, 29 mars 2020
+            <br>
+            sunday, 25 october 2020
+            <br>
+            <br>
+            sunday, 28 mars 2021
+            <br>
+            sunday, 31 october 2021
+            <br>
+            <br>
+            sunday, 27 mars
+            <br>
+            sunday, 30 october
+          </p>
+        </div>
+      </div>
+
+
+
+
+    </section>
+  </section>
+
+
 
 </body>
+<script src="script.js"></script>
 
 </html>
