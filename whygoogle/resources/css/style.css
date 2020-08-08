@@ -1,0 +1,186 @@
+/* ---------------------------------- */
+/* COLOR SCHEME */
+/* ---------------------------------- */
+/* ---------------------------------- */
+/* BASIC SETUP */
+/* ---------------------------------- */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+@media only screen and (max-width: 80rem) {
+  html {
+    font-size: 50%;
+  }
+}
+
+body {
+  background-color: #f0ede5;
+  color: #36211f;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* -------------------------------------- */
+/* HEADER */
+/* -------------------------------------- */
+.header {
+  background-color: #f0ede5;
+}
+
+.header__sticky-header {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.fixed-nav .header__sticky-header {
+  background-color: #f0ede5;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  -webkit-box-shadow: 1rem 1rem 3rem rgba(0, 0, 0, 0.23);
+          box-shadow: 1rem 1rem 3rem rgba(0, 0, 0, 0.23);
+}
+
+.header__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 128rem;
+  margin: 0 auto;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.header__logo img {
+  height: 5rem;
+  width: auto;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .header__logo img {
+    height: 3rem;
+    width: auto;
+  }
+}
+
+.header__main-nav {
+  margin: 0.7rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__main-nav li {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 2.1rem;
+  font-size: 100%;
+}
+
+.header__main-nav li a:link,
+.header__main-nav li a:visited {
+  text-decoration: none;
+  font-size: 100%;
+  color: #101010;
+  padding: 0.5rem;
+  -webkit-transition: border-bottom 0.2s, padding-bottom 0.2s;
+  transition: border-bottom 0.2s, padding-bottom 0.2s;
+}
+
+.header__main-nav li a:hover,
+.header__main-nav li a:active {
+  border-bottom: solid #f19d99 0.3rem;
+  padding-bottom: 1.9rem;
+}
+
+.search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 1%;
+          flex: 0 0 1%;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.search:focus-within {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33%;
+          flex: 0 0 33%;
+}
+
+@media only screen and (max-width: 48em) {
+  .search:focus-within {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    margin: 5rem auto 0 -1rem;
+  }
+}
+
+.search__button {
+  border: none;
+  background-color: inherit;
+  outline: none;
+  pointer-events: none;
+}
+
+.search__button--icon {
+  width: 2.25rem;
+  height: 2.25rem;
+}
+
+.search__input {
+  border: none;
+  height: 4rem;
+  background-color: inherit;
+  float: right;
+  width: 10%;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  padding: 0.7rem 0rem 0.7rem 4rem;
+  border-radius: 10rem;
+  margin-right: -3rem;
+  cursor: pointer;
+}
+
+.search__input:focus {
+  outline: none;
+  width: 100%;
+  background-color: white;
+  cursor: auto;
+}
+
+.search__input::-webkit-input-placeholder {
+  font-weight: 100;
+  color: #f0ede5;
+}
+/*# sourceMappingURL=style.css.map */
