@@ -69,3 +69,15 @@ let questions = [
     a: "clock",
   },
 ];
+
+let orderedQ = questions.sort((a, b) => (a.searches < b.searches ? 1 : -1));
+let place = document.querySelectorAll(".place");
+let questionText = document.querySelectorAll(".question--text");
+let number = document.querySelectorAll(".number");
+let image = document.querySelectorAll(".card__image--img");
+let link = document.querySelectorAll(".link");
+
+for (let i = 0; i < questions.length; i++) {
+  if (orderedQ[i].question.includes("gallon")) {
+  }
+}
