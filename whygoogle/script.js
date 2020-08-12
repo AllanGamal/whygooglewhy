@@ -81,3 +81,25 @@ for (let i = 0; i < questions.length; i++) {
   if (orderedQ[i].question.includes("gallon")) {
   }
 }
+
+function randomQuestion() {
+  let arr = [];
+  // Add random number to question
+  for (let i = 0; i < place.length; i++) {
+    let n = Math.floor(Math.random() * orderedQ.length);
+
+    if (arr.includes(n)) {
+      randomQuestion();
+    } else {
+      arr.push(n);
+      place[i].innerHTML = "Nr: " + (n + 1);
+      questionText[i].innerHTML = orderedQ[n].question;
+      number[i].innerHTML = orderedQ[n].searches + "k";
+      image[i].src = "resources/images/cards/" + orderedQ[n].img + ".jpg";
+      link[i].href = "#" + orderedQ[n].a;
+    }
+    if (arr.length == 4) {
+    }
+  }
+}
+randomQuestion();
