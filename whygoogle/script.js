@@ -103,3 +103,36 @@ function randomQuestion() {
   }
 }
 randomQuestion();
+
+// Show ip
+fetch("https://api.ipify.org/?format=json")
+  .then((results) => results.json())
+  .then(
+    (data) =>
+      (document.getElementById("show-ip").innerHTML =
+        "Your ip is: <br>" + data.ip)
+  );
+
+// Show time
+function startTime() {
+  let today = new Date();
+  let h;
+  let m;
+  let s;
+  today.getHours() < 10 ? (h = "0" + today.getHours()) : (h = today.getHours());
+
+  today.getMinutes() < 10
+    ? (m = "0" + today.getMinutes())
+    : (m = today.getMinutes());
+
+  today.getSeconds() < 10
+    ? (s = "0" + today.getSeconds())
+    : (s = today.getSeconds());
+
+  t = setTimeout(function () {
+    startTime();
+  }, 1000);
+  document.getElementById("show-time").innerHTML =
+    "The time is: <br>" + h + ":" + m + ":" + s;
+}
+startTime();
