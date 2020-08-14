@@ -136,3 +136,21 @@ function startTime() {
     "The time is: <br>" + h + ":" + m + ":" + s;
 }
 startTime();
+
+// Show what day it is today
+function showDay() {
+  let today = new Date();
+  let days = [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday",
+  ];
+  let d = days[today.getDay() - 1];
+
+  document.getElementById("show-day").innerHTML = "Today day is: <br>" + d;
+}
+showDay();
